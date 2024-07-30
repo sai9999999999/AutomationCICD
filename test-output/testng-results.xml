@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-29T22:04:16 IST" name="Default suite" finished-at="2024-07-29T22:05:19 IST" duration-ms="63504">
+  <suite started-at="2024-07-30T20:10:02 IST" name="Suite" finished-at="2024-07-30T20:10:56 IST" duration-ms="53591">
     <groups>
       <group name="submitOrder">
-        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@43bc63a3]" name="SubmitOrder" class="FrameWorkSelenium.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@776aec5c]" name="SubmitOrder" class="FrameWorkSelenium.SubmitOrderTest"/>
       </group> <!-- submitOrder -->
     </groups>
-    <test started-at="2024-07-29T22:04:16 IST" name="Default test" finished-at="2024-07-29T22:05:19 IST" duration-ms="63504">
+    <test started-at="2024-07-30T20:10:02 IST" name="Submit Order Test" finished-at="2024-07-30T20:10:55 IST" duration-ms="53556">
       <class name="FrameWorkSelenium.SubmitOrderTest">
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@43bc63a3]" started-at="2024-07-29T22:04:16 IST" name="LaunchApplication" finished-at="2024-07-29T22:04:28 IST" duration-ms="11779" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@776aec5c]" started-at="2024-07-30T20:10:02 IST" name="LaunchApplication" finished-at="2024-07-30T20:10:11 IST" duration-ms="8886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@43bc63a3]" started-at="2024-07-29T22:04:28 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-07-29T22:04:49 IST" duration-ms="20576" status="PASS">
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@776aec5c]" started-at="2024-07-30T20:10:11 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-07-30T20:10:31 IST" duration-ms="19906" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,15 +25,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@43bc63a3]" started-at="2024-07-29T22:04:49 IST" name="tearDown" finished-at="2024-07-29T22:04:49 IST" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@776aec5c]" started-at="2024-07-30T20:10:31 IST" name="tearDown" finished-at="2024-07-30T20:10:31 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@43bc63a3]" started-at="2024-07-29T22:04:49 IST" name="LaunchApplication" finished-at="2024-07-29T22:04:53 IST" duration-ms="3928" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@776aec5c]" started-at="2024-07-30T20:10:31 IST" name="LaunchApplication" finished-at="2024-07-30T20:10:35 IST" duration-ms="4159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@43bc63a3]" started-at="2024-07-29T22:04:53 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-07-29T22:05:13 IST" duration-ms="20414" status="PASS">
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@776aec5c]" started-at="2024-07-30T20:10:35 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-07-30T20:10:55 IST" duration-ms="20038" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,23 +44,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@43bc63a3]" started-at="2024-07-29T22:05:13 IST" name="tearDown" finished-at="2024-07-29T22:05:13 IST" duration-ms="242" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@43bc63a3]" started-at="2024-07-29T22:05:13 IST" name="LaunchApplication" finished-at="2024-07-29T22:05:18 IST" duration-ms="4895" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="orderHistoryTest()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@43bc63a3]" started-at="2024-07-29T22:05:18 IST" name="orderHistoryTest" finished-at="2024-07-29T22:05:19 IST" depends-on-methods="FrameWorkSelenium.SubmitOrderTest.SubmitOrder" duration-ms="917" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@43bc63a3]" started-at="2024-07-29T22:05:19 IST" name="tearDown" finished-at="2024-07-29T22:05:19 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@776aec5c]" started-at="2024-07-30T20:10:55 IST" name="tearDown" finished-at="2024-07-30T20:10:55 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- FrameWorkSelenium.SubmitOrderTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2024-07-30T20:10:56 IST" name="Error Validation" finished-at="2024-07-30T20:10:56 IST" duration-ms="1">
+    </test> <!-- Error Validation -->
+  </suite> <!-- Suite -->
 </testng-results>
