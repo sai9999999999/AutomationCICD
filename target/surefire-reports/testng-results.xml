@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-30T15:43:36 IST" name="Surefire suite" finished-at="2024-07-30T15:44:34 IST" duration-ms="57788">
+    <groups>
+      <group name="submitOrder">
+        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@6e0dec4a]" name="SubmitOrder" class="FrameWorkSelenium.SubmitOrderTest"/>
+      </group> <!-- submitOrder -->
+    </groups>
+    <test started-at="2024-07-30T15:43:36 IST" name="Surefire test" finished-at="2024-07-30T15:44:34 IST" duration-ms="57788">
+      <class name="FrameWorkSelenium.SubmitOrderTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@6e0dec4a]" started-at="2024-07-30T15:43:36 IST" name="LaunchApplication" finished-at="2024-07-30T15:43:42 IST" duration-ms="5897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@6e0dec4a]" started-at="2024-07-30T15:43:42 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-07-30T15:44:02 IST" duration-ms="20126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Selenium@2024, product=ZARA COAT 3, email=homsai@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@6e0dec4a]" started-at="2024-07-30T15:44:02 IST" name="tearDown" finished-at="2024-07-30T15:44:03 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@6e0dec4a]" started-at="2024-07-30T15:44:03 IST" name="LaunchApplication" finished-at="2024-07-30T15:44:08 IST" duration-ms="5709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@6e0dec4a]" started-at="2024-07-30T15:44:08 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-07-30T15:44:29 IST" duration-ms="20443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Selenium@2024, product=ADIDAS ORIGINAL, email=homsai@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@6e0dec4a]" started-at="2024-07-30T15:44:29 IST" name="tearDown" finished-at="2024-07-30T15:44:29 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@6e0dec4a]" started-at="2024-07-30T15:44:29 IST" name="LaunchApplication" finished-at="2024-07-30T15:44:33 IST" duration-ms="4530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@6e0dec4a]" started-at="2024-07-30T15:44:33 IST" name="orderHistoryTest" finished-at="2024-07-30T15:44:34 IST" depends-on-methods="FrameWorkSelenium.SubmitOrderTest.SubmitOrder" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWorkSelenium.SubmitOrderTest@6e0dec4a]" started-at="2024-07-30T15:44:34 IST" name="tearDown" finished-at="2024-07-30T15:44:34 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FrameWorkSelenium.SubmitOrderTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite   name="Suite">
+
+<!-- for running multiple methods with a single group name	
+
+	 <groups>
+		<run>
+
+			<include name="ErrorHandling"></include>
+
+		</run>
+
+	</groups> 
+	-->
+
+
+	 <groups>
+		<run>
+
+			<include name="submitOrder"></include>
+
+		</run>
+
+	</groups> 
+	<test thread-count="5" name="Submit Order Test">
+		<classes>
+			<class name="FrameWorkSelenium.SubmitOrderTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+
+	<test thread-count="5" name="Error Validation">
+		<classes>
+			<class name="FrameWorkSelenium.ErrorValidation" />
+		</classes>
+	</test> <!--
+	Test -->
+
+
+</suite> <!--
+Suite -->
